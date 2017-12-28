@@ -1,0 +1,499 @@
+body {
+	background-color: #151515;
+   
+}
+
+#container_wrapper {
+     position: relative;
+}
+#wrapper {
+	width: 1300px;
+    height: 800px;
+    position: absolute;
+	font-family:Verdana;
+	font-size:small;
+	color:black;
+	float:left;
+	background-color: #151515;
+	padding: 0px 0px 0px 10px;
+}
+#leftwrapper {
+	width: 600px;
+    float: left;
+}
+#rightwrapper{
+	width: 600px;
+    float: left;
+}
+#randNotiz {
+	width: 600px;
+	float: left;
+	padding:15px 25px; 
+	color: white;
+}
+
+#legende{
+	width: 50px;
+    position: absolute; right: 0; 
+    color: #D5AE90;
+    font-family: Verdana;
+    font-size: 12px;
+    float: right;
+	cursor: pointer;
+}
+
+#btnlegende{
+    font-family:Verdana;
+    background-color: #151515;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    color: #D5AE90;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+#werte_legende{
+	width: 650px;
+    height: 800px;
+    position: absolute; right: 0; 
+    color: #D5AE90;
+    font-family: Verdana;
+    font-size: 14px;
+    display: none;
+    background-color: #151515;
+    padding:15px 0px 0px 40px;
+    margin-left: 200px;
+}
+
+
+#basicMap {
+	width: 500px;
+	height: 510px;
+	float: left;
+}
+
+#buttons {
+	color: #D5AE90;
+	font-size: 30;
+    height: 50px;
+}
+
+
+
+#landtext {
+	height: 50px;
+	width:  300px;
+	float:left;
+    color: #D5AE90;
+    font-family: Verdana;
+    font-size: 22px;
+}
+#wassertext {
+	height: 50px;
+	width:  300px;
+	color: #D5AE90;
+    font-family: Verdana;
+    font-size: 18px;
+	float:right;
+}
+
+#smallMap {
+	width: 300px;
+	height: 200px;
+    float:left;
+}
+
+#chart5 {
+	height: 200px;
+	width:  300px;
+	color: white;
+	float:left;
+}
+
+path {
+  fill-opacity: 0.5; 
+}
+#chart svg {
+	height: 100px;
+	width:  800px;
+	color: white;
+	position: absolute; bottom: 70px; left: 0px; 
+    fill: none;
+}
+#chart6 svg {
+	height: 100px;
+	width:  800px;
+	color: white;
+	position: absolute; bottom: 0px; left: 0px; 
+    fill: none;
+}
+#chart2 {
+	height: 150px;
+	width:  600px;
+	color: white;
+	 float: left;
+}
+#chart2 svg {
+	height: 150px;
+	width:  600px;
+	color: white;
+	 float: left;
+}
+#chart3 {
+	height: 150px;
+	width:  600px;
+	color: white;
+	 float: left;
+}
+#chart3 svg {
+	height: 150px;
+	width:  600px;
+	color: white;
+	 float: left;
+}
+
+#chart4 {
+	height: 150px;
+	width:  600px;
+	color: white;
+	/*position: absolute; bottom: 400px; left: 0; */
+    float: left;
+}
+#chart4 svg {
+	height: 150px;
+	width:  600px;
+	color: white;
+	/* position: absolute; bottom: 0; left: 0; */
+    float: left;
+}
+
+#btnanbau {
+    font-family:Verdana;
+    background-color: #ffc600;
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+
+#btnertrag {
+    font-family:Verdana;
+    background-color: #ffa200;
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+
+#btnP {
+    font-family:Verdana;
+    background-color: #006c51 ;
+    border: none;
+    outline:none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #D5AE90;
+    text-decoration:none;
+}
+
+
+#btnP:focus {
+    font-family:Verdana;
+    background-color:  #006c51;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #D5AE90;
+    border: solid #D5AE90;
+    border-width: 0px 1px;
+}
+
+#btnN {
+    font-family:Verdana;
+    background-color: #5CA82A;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    color: #D5AE90;
+    text-decoration:none;
+
+}
+#btnN:focus {
+    font-family:Verdana;
+    background-color:  #5CA82A;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #D5AE90;
+    border: solid #D5AE90;
+    border-width: 0px 1px;
+}
+
+#btnPN {
+    font-family:Verdana;
+    background-color: #866396;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    color: #D5AE90;
+}
+
+#btnPN:focus {
+    font-family:Verdana;
+    background-color: #866396;
+    outline:none;
+    cursor: pointer;
+    color: #D5AE90;
+    border: solid #D5AE90;
+    border-width: 0px 1px;
+}
+
+#btnWasser {
+    font-family:Verdana;
+    background-color: #2446B8;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    color: #D5AE90;
+}
+
+#btnWasser:focus {
+    font-family:Verdana;
+    background-color: #2446B8;
+    cursor: pointer;
+    color: #D5AE90;
+    border: solid #D5AE90;
+    border-width: 0px 1px;
+}
+
+
+#_2000 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    cursor: pointer;
+    margin: 0px;
+    float: left;
+    border: solid #151515;
+    border-width: 1px;
+    color: #D5AE90;
+}
+#_2000:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2001 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+    border: solid #151515;
+    border-width: 1px;
+}
+#_2001:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2002 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+}
+#_2002:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2003 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+}
+#_2003:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2004 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+}
+#_2004:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2005 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+}
+#_2005:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2006 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+    outline: none;
+}
+#_2006:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2007 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+}
+#_2007:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2008 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+}
+#_2008:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2009 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+}
+#_2009:focus {
+    border: solid #D5AE90;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+    outline: none;
+}
+#_2010 {
+    font-family:Verdana;
+    background-color: #302b2b;
+    outline: none;
+    border: solid #151515;
+    border-width: 1px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    color: #D5AE90;
+}
+#_2010:focus {
+    border: solid #D5AE90;
+    outline: none;
+    border-bottom-color: #302b2b;
+    border-width: 1px;
+}
+.olControlLayerSwitcher {
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-top: 3px;
+    position: absolute;
+    right: 0;
+    top: 42px;
+    width: 20em;
+}
+.nvtooltip {
+  position: relative ; 
+  /* margin-top: 500px; */
+  background-color: #D5AE90;
+  padding: 1px;
+  border: 1px solid rgba(0,0,0,.2);
+  z-index: 100;
+
+  font-family: Arial;
+  font-size: 10px;
+  text-align: left;
+  pointer-events: none;
+  white-space: nowrap;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.nvd3 line.nv-guideline {
+  stroke: #151515;
+}
+.nvd3 .nv-interactiveGuideLine {
+  pointer-events:none;
+}
+.nvtooltip table td.legend-color-guide div {
+    height: 8px;
+    vertical-align: middle;
+    width: 8px;
+}
+.nvtooltip table td.value {
+  text-align: right;
+  font-weight: bold;
+}
+
+.nvtooltip.x-nvtooltip,
+.nvtooltip.y-nvtooltip {
+  padding: 8px;
+}

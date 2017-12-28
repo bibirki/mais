@@ -1,0 +1,415 @@
+renderExampleOneResults({
+	"searchResults": [{
+		"resultNumber": 1,
+		"distance": 0.11,
+		"sourceName": "mqap.internationalpois",
+		"name": "Deutsches Jagd- und Fischereimuseum",
+		"shapePoints": [48.138421,
+		11.571069],
+		"distanceUnit": "m",
+		"key": "b7a82a16-f0cc-4435-b16e-53201263200c",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.571069,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235576233",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.571069,
+					"lat": 48.138421
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "2 Neuhauser Straße",
+			"postal_code": "80331",
+			"name": "Deutsches Jagd- und Fischereimuseum",
+			"mqap_id": "b7a82a16-f0cc-4435-b16e-53201263200c",
+			"disp_lat": 48.138421,
+			"street_link_id": "",
+			"lat": 48.138421,
+			"disp_lng": 11.571069
+		}
+	},
+	{
+		"resultNumber": 2,
+		"distance": 0.16,
+		"sourceName": "mqap.internationalpois",
+		"name": "Siemens Forum Museum",
+		"shapePoints": [48.141461,
+		11.572197],
+		"distanceUnit": "m",
+		"key": "921923f8-505e-40e3-a411-e020ae8fe4ed",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.572197,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235084305",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.572197,
+					"lat": 48.141461
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "10 Prannerstraße",
+			"postal_code": "80333",
+			"name": "Siemens Forum Museum",
+			"mqap_id": "921923f8-505e-40e3-a411-e020ae8fe4ed",
+			"disp_lat": 48.141461,
+			"street_link_id": "",
+			"lat": 48.141461,
+			"disp_lng": 11.572197
+		}
+	},
+	{
+		"resultNumber": 3,
+		"distance": 0.26,
+		"sourceName": "mqap.internationalpois",
+		"name": "Residenzmuseum",
+		"shapePoints": [48.141714,
+		11.577333],
+		"distanceUnit": "m",
+		"key": "a843ca43-1c2f-4cc1-baed-4951d97c8704",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.577333,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235613656",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.577333,
+					"lat": 48.141714
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "1 Residenzstraße",
+			"postal_code": "80333",
+			"name": "Residenzmuseum",
+			"mqap_id": "a843ca43-1c2f-4cc1-baed-4951d97c8704",
+			"disp_lat": 48.141714,
+			"street_link_id": "",
+			"lat": 48.141714,
+			"disp_lng": 11.577333
+		}
+	},
+	{
+		"resultNumber": 4,
+		"distance": 0.29,
+		"sourceName": "mqap.internationalpois",
+		"name": "MBI Museum Boutique",
+		"shapePoints": [48.140766,
+		11.567044],
+		"distanceUnit": "m",
+		"key": "9effe1fa-fc3b-424a-8f58-618522626ce1",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.567044,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235488108",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.567044,
+					"lat": 48.140766
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "1 Ottostraße",
+			"postal_code": "80333",
+			"name": "MBI Museum Boutique",
+			"mqap_id": "9effe1fa-fc3b-424a-8f58-618522626ce1",
+			"disp_lat": 48.140766,
+			"street_link_id": "",
+			"lat": 48.140766,
+			"disp_lng": 11.567044
+		}
+	},
+	{
+		"resultNumber": 5,
+		"distance": 0.3,
+		"sourceName": "mqap.internationalpois",
+		"name": "Münchner Stadtmuseum",
+		"shapePoints": [48.135011,
+		11.572379],
+		"distanceUnit": "m",
+		"key": "be1c750a-7fdd-4799-8b6a-83f1f0f03abd",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "+(49)-(89)-23322370",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.572379,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235542155",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.572379,
+					"lat": 48.135011
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "1 Sankt-Jakobs-Platz",
+			"postal_code": "80331",
+			"name": "Münchner Stadtmuseum",
+			"mqap_id": "be1c750a-7fdd-4799-8b6a-83f1f0f03abd",
+			"disp_lat": 48.135011,
+			"street_link_id": "",
+			"lat": 48.135011,
+			"disp_lng": 11.572379
+		}
+	},
+	{
+		"resultNumber": 6,
+		"distance": 0.3,
+		"sourceName": "mqap.internationalpois",
+		"name": "Puppentheatermuseum",
+		"shapePoints": [48.135011,
+		11.572379],
+		"distanceUnit": "m",
+		"key": "81407886-0d48-448a-8966-cf8dc35a1c0c",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.572379,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235079688",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.572379,
+					"lat": 48.135011
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "1 Sankt-Jakobs-Platz",
+			"postal_code": "80331",
+			"name": "Puppentheatermuseum",
+			"mqap_id": "81407886-0d48-448a-8966-cf8dc35a1c0c",
+			"disp_lat": 48.135011,
+			"street_link_id": "",
+			"lat": 48.135011,
+			"disp_lng": 11.572379
+		}
+	},
+	{
+		"resultNumber": 7,
+		"distance": 0.43,
+		"sourceName": "mqap.internationalpois",
+		"name": "Sissy Museum",
+		"shapePoints": [48.135067,
+		11.579952],
+		"distanceUnit": "m",
+		"key": "1d1bd84e-00ea-4f88-a70f-1eea1629e50e",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.579952,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235114082",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.579952,
+					"lat": 48.135067
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "41 Westenriederstraße",
+			"postal_code": "80331",
+			"name": "Sissy Museum",
+			"mqap_id": "1d1bd84e-00ea-4f88-a70f-1eea1629e50e",
+			"disp_lat": 48.135067,
+			"street_link_id": "",
+			"lat": 48.135067,
+			"disp_lng": 11.579952
+		}
+	},
+	{
+		"resultNumber": 8,
+		"distance": 0.47,
+		"sourceName": "mqap.internationalpois",
+		"name": "Deutsches Theatermuseum",
+		"shapePoints": [48.143764,
+		11.580489],
+		"distanceUnit": "m",
+		"key": "a7d5b51b-01c9-4c20-8d5e-e36629ac69b1",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.580489,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235080365",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.580489,
+					"lat": 48.143764
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "4a Galeriestraße",
+			"postal_code": "80539",
+			"name": "Deutsches Theatermuseum",
+			"mqap_id": "a7d5b51b-01c9-4c20-8d5e-e36629ac69b1",
+			"disp_lat": 48.143764,
+			"street_link_id": "",
+			"lat": 48.143764,
+			"disp_lng": 11.580489
+		}
+	},
+	{
+		"resultNumber": 9,
+		"distance": 0.5,
+		"sourceName": "mqap.internationalpois",
+		"name": "Valentin Museum",
+		"shapePoints": [48.135046,
+		11.581851],
+		"distanceUnit": "m",
+		"key": "caf1b81b-28b1-462a-bbab-0fe289bc0732",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.581851,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235504411",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.581851,
+					"lat": 48.135046
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "50 Tal",
+			"postal_code": "80331",
+			"name": "Valentin Museum",
+			"mqap_id": "caf1b81b-28b1-462a-bbab-0fe289bc0732",
+			"disp_lat": 48.135046,
+			"street_link_id": "",
+			"lat": 48.135046,
+			"disp_lng": 11.581851
+		}
+	},
+	{
+		"resultNumber": 10,
+		"distance": 0.51,
+		"sourceName": "mqap.internationalpois",
+		"name": "Jüdisches Museum",
+		"shapePoints": [48.137873,
+		11.583755],
+		"distanceUnit": "m",
+		"key": "6d1fc17a-321e-4aee-87fe-97f1f1a94054",
+		"fields": {
+			"cats_ext": "Museums",
+			"phone": "",
+			"side_of_street": "N",
+			"navsics": "841201",
+			"lng": 11.583755,
+			"city": "München",
+			"country": "DE",
+			"cats": "Museums",
+			"id": "12760235622098",
+			"mqap_geography": {
+				"latLng": {
+					"lng": 11.583755,
+					"lat": 48.137873
+				}
+			},
+			"navsics_ext": "841201",
+			"address": "36 Maximilianstraße",
+			"postal_code": "80539",
+			"name": "Jüdisches Museum",
+			"mqap_id": "6d1fc17a-321e-4aee-87fe-97f1f1a94054",
+			"disp_lat": 48.137873,
+			"street_link_id": "",
+			"lat": 48.137873,
+			"disp_lng": 11.583755
+		}
+	}],
+	"origin": {
+		"latLng": {
+			"lng": 11.57296,
+			"lat": 48.139267
+		},
+		"adminArea4": "",
+		"adminArea5Type": "City",
+		"adminArea4Type": "County",
+		"adminArea5": "Monaco",
+		"street": "",
+		"adminArea1": "DE",
+		"adminArea3": "",
+		"type": "s",
+		"displayLatLng": {
+			"lng": 11.57296,
+			"lat": 48.139267
+		},
+		"linkId": 286265313,
+		"postalCode": "",
+		"sideOfStreet": "N",
+		"dragPoint": false,
+		"adminArea1Type": "Country",
+		"geocodeQuality": "CITY",
+		"geocodeQualityCode": "A5XAX",
+		"adminArea3Type": "State"
+	},
+	"resultsCount": 10,
+	"hostedData": [{
+		"tableName": "mqap.internationalpois",
+		"extraCriteria": "navsics=?",
+		"parameters": ["841201"],
+		"columnNames": []
+	}],
+	"totalPages": 1,
+	"info": {
+		"statusCode": 0,
+		"copyright": {
+			"text": "© 2014 MapQuest, Inc.",
+			"imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+			"imageAltText": "© 2014 MapQuest, Inc."
+		},
+		"messages": []
+	},
+	"options": {
+		"kmlStyleUrl": "http://www.mapquestapi.com/kml-default.kml",
+		"shapeFormat": "raw",
+		"ambiguities": true,
+		"pageSize": 10,
+		"radius": 100,
+		"currentPage": 1,
+		"units": "m",
+		"maxMatches": 10
+	}
+});

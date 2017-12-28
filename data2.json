@@ -1,0 +1,18 @@
+
+{
+      key: "Cumulative Return",
+      values: [
+        { 
+			"land": "Burundi",
+			"_2010": 125600
+		},
+		{ 
+			"land": "United Republic of Tanzania",
+			"_2010": 3050710
+		},
+		{
+			"land": "Comoros",
+			"_2010": 2500
+		}
+	]
+}

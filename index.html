@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <title>Maisanbau in Ostafrika </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+	
+    <script src="OL/OpenLayers.js"></script>
+	
+	<script src="nvd3/lib/d3.v3.js" charset="utf-8"></script>
+	<script src="nvd3/nv.d3.js" charset="utf-8"></script>
+	<script src="nvd3/lib/colorbrewer.js" charset="utf-8"></script>
+      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+	<link href="favicon.png" rel="shortcut icon">
+	 <script src="mais.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!--<link rel="stylesheet" type="text/css" href="nvd3/nv.d3.css"> -->
+
+    
+  </head>
+  <body onload="init(), graphexample(), preisgraph()">
+      <div id="container_wrapper">
+          <div id="wrapper">
+
+              <div id="leftwrapper">
+                  <div id="buttons">
+                      Maisanbau in Ostafrika <br />
+                      <input type="button" name="anbau" id="btnanbau" value="Mais Anbau" onclick="mais_anbau.setVisibility(true), mais_ertrag.setVisibility(false), phosphat.setVisibility(false), nitrogen.setVisibility(false), setButtonInactive(this.id)" />
+                      <input type="button" name="ertrag" id="btnertrag" value="Mais Ertrag" onclick="mais_ertrag.setVisibility(true), mais_anbau.setVisibility(false), phosphat.setVisibility(false), nitrogen.setVisibility(false), setButtonInactive(this.id)" /> <br />
+                      <input type="button" name="boden" id="btnP" value="P" onclick="phosphat.setVisibility(true), nitrogen.setVisibility(false), n_P.setVisibility(false), wasser.setVisibility(false), mais_anbau.setVisibility(false), mais_ertrag.setVisibility(false), setButtonInactive(this.id)" />
+                      <input type="button" name="boden" id="btnN" value="N" onclick="phosphat.setVisibility(false), nitrogen.setVisibility(true), n_P.setVisibility(false), wasser.setVisibility(false), mais_anbau.setVisibility(false), mais_ertrag.setVisibility(false), setButtonInactive(this.id)" />
+                      <input type="button" name="boden" id="btnPN" value="P + N" onclick="n_P.setVisibility(true), wasser.setVisibility(false), phosphat.setVisibility(false), nitrogen.setVisibility(false), mais_anbau.setVisibility(false), mais_ertrag.setVisibility(false), setButtonInactive(this.id)" />
+                      <input type="button" name="wasser" id="btnWasser" value="Wasser" onclick="wasser.setVisibility(true), phosphat.setVisibility(false), nitrogen.setVisibility(false), n_P.setVisibility(false), mais_anbau.setVisibility(false), mais_ertrag.setVisibility(false), setButtonInactive(this.id)" /> <br />
+                      <input type="button" name="jahr" id="_2000" value="2000" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2001" value="2001" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2002" value="2002" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2003" value="2003" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2004" value="2004" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2005" value="2005" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2006" value="2006" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2007" value="2007" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2008" value="2008" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2009" value="2009" onclick="pRadius(this.id)" />
+                      <input type="button" name="jahr" id="_2010" value="2010" onclick="pRadius(this.id)" autofocus="autofocus" />
+
+
+
+
+
+                  </div>
+                  <div id="basicMap" ></div>
+                  <div id="chart">
+                      <svg><path fill="none"></path></svg>
+                  </div>
+                  <div id="chart6">
+                      <svg></svg>
+                  </div>
+                  
+                  
+              </div>
+              <div id="rightwrapper">
+                  
+                  <div id="randNotiz">
+                      <div id="landtext"></div>
+                      <div id="wassertext"></div>
+                      <div id="smallMap" onclick="getSmallMap()"></div>
+                      <div id="chart5"></div>
+                      <div id="chart4"><svg></svg></div>
+                      <div id="chart3"><svg></svg></div>
+                      <div id="chart2"> 
+                          <svg></svg>
+                      </div>
+
+                  </div>
+                  <div id="legende"><img src="menu.png" width="40" onclick="toggle_visibility()" alt text="Legende"></button>
+                  <div id="werte_legende">
+                     <h4> Maisproduktion</h4>
+                      Verfügbarkeit: 2000-2010 <br />
+                      <b> Anbau:</b> Anteil der Anbaufläche von Mais, in % <br />
+                      <b>Ertrag:</b> Maisertrag, Hg pro Hektar<br /><br />
+                      <h4>Düngermittelverbrauch</h4>
+                      Verfügbarkeit: 2002-2010 <br />
+                      <b>P:</b> P2O5 Düngermittel, Tonnen pro 1000 Hektar<br />
+                      <b>N:</b> Nitrogen Düngermittel, Tonnen pro 1000 Hektar<br />
+                      <b>P+N:</b> P2O5 und Nitrogen Düngermittel summiert, Tonnen pro 1000 Hektar <br />
+                      <br />
+                      <h4>Wasserverbrauch der Landwirtschaft</h4>
+                      Verfügbarkeit: 2000-2005 <br />
+                     Anteil der Wasserverbrauch der Landwirtschaft zu Gesamtverbrauch, in %<br /><br />
+                      <h4>Quellen:</h4>
+                      Statistik: <a href="http://faostat.fao.org">www.faostat.fao.org </a> <br />
+                      Maispreisindex: <a href="http://indexmundi.com">www.indexmundi.com</a>  <br />
+                      Landesgrenzen:<a href="http://www.gadm.org">www.gadm.org</a>  <br />
+
+                      <div id="scale"></div>
+                      </div>
+                  
+                  
+                  
+                  </div>
+              </div>
+              
+              <div id="message"> 	</div>
+          </div>
+      </div>
+  </body>
+</html>
